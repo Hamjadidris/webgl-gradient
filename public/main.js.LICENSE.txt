@@ -34,6 +34,8 @@
 
 /*! ../math/Euler.js */
 
+/*! ../math/Mat3.js */
+
 /*! ../math/Mat4.js */
 
 /*! ../math/Quat.js */
@@ -47,6 +49,8 @@
 /*! ../node_modules/css-loader/dist/runtime/sourceMaps.js */
 
 /*! ../utils/log.js */
+
+/*! ./Background */
 
 /*! ./CSSPlugin.js */
 
@@ -282,6 +286,8 @@
 
 /*! ./functions/EulerFunc.js */
 
+/*! ./functions/Mat3Func.js */
+
 /*! ./functions/Mat4Func.js */
 
 /*! ./functions/QuatFunc.js */
@@ -360,8 +366,6 @@
 
 /*! components/Canvas */
 
-/*! components/Preloader */
-
 /*! events */
 
 /*! gsap */
@@ -378,9 +382,11 @@
 
 /*! prefix */
 
-/*! tapable */
+/*! shaders/background-fragment.glsl */
 
-/*! utils/text */
+/*! shaders/background-vertex.glsl */
+
+/*! tapable */
 
 /*! webpack/hot/emitter.js */
 

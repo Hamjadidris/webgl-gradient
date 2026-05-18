@@ -4,14 +4,12 @@ import each from "lodash/each";
 import Home from "pages/Home";
 
 import Canvas from "components/Canvas";
-import Preloader from "components/Preloader";
 
 class App {
   constructor() {
     this.createContent();
 
     this.creaveCanvas();
-    // this.createPreloader();
 
     this.createPages();
     this.addEventListeners();

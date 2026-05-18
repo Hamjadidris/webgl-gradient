@@ -1,8 +1,8 @@
 import { Camera, Renderer, Transform } from "ogl";
 
 import Home from "./Home";
+import Background from "./Background";
 
-// import Transition from "./Transition";
 
 export default class Canvas {
   constructor({ template }) {
@@ -25,6 +25,7 @@ export default class Canvas {
     this.createScene();
 
     this.onResize();
+    this.createBackground();
   }
 
   createRenderer() {
@@ -46,6 +47,14 @@ export default class Canvas {
 
   createScene() {
     this.scene = new Transform();
+  }
+
+  createBackground() {
+    this.background = new Background({
+      gl: this.gl,
+      scene: this.scene,
+      sizes: this.sizes,
+    });
   }
 
   createHome() {
@@ -114,6 +123,10 @@ export default class Canvas {
     if (this.home) {
       this.home.onResize(values);
     }
+
+    if (this.background) {
+      this.background.onResize(values);
+    }
   }
 
   onTouchDown(e) {
@@ -177,6 +190,10 @@ export default class Canvas {
   }
 
   update(scroll) {
+    if (this.background?.update) {
+      this.background.update(scroll);
+    }
+
     if (this.home?.update) {
       this.home.update();
     }

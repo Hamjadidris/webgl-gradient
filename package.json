@@ -45,6 +45,7 @@
     "webpack": "^5.102.1",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2",
+    "webpack-lygia-loader": "^0.0.1",
     "webpack-merge": "^6.0.1"
   },
   "dependencies": {
@@ -53,6 +54,7 @@
     "errorhandler": "^1.5.1",
     "express": "^5.1.0",
     "express-handlebars": "^8.0.6",
+    "lygia": "^1.4.1",
     "method-override": "^3.0.0",
     "morgan": "^1.10.1",
     "nodemon": "^3.1.10",

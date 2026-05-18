@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+.form-container {
+    transform: translateX(21.5rem);
+}
+
+.form-container button svg {
+    transform: rotate(90deg);
+}
+
+.form-container.opened {
+    transform: translateX(0);
+}
+
+.form-container.opened button svg {
+    transform: rotate(270deg);
+}

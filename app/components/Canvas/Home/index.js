@@ -2,7 +2,6 @@ import { Plane, Transform } from "ogl";
 import GSAP from "gsap";
 
 // import Media from "./Media";
-
 // import map from "lodash/map";
 
 export default class Home {
