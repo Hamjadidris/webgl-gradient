@@ -10,6 +10,6 @@ export default merge(config, {
   mode: "production",
 
   output: {
-    path: join(__dirname, "public"),
+    path: join(__dirname, "dist"),
   },
 });
