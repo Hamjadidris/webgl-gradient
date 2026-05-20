@@ -1,4 +1,13 @@
 /*!
+ * CSSPlugin 3.13.0
+ * https://gsap.com
+ *
+ * Copyright 2008-2025, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
  * GSAP 3.13.0
  * https://gsap.com
  *
@@ -6,6 +15,404 @@
  * Subject to the terms at https://gsap.com/standard-license
  * @author: Jack Doyle, jack@greensock.com
 */
+
+/*! !!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??postcss!./index.css */
+
+/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+
+/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */
+
+/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */
+
+/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */
+
+/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */
+
+/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */
+
+/*! ../core/Geometry.js */
+
+/*! ../math/Euler.js */
+
+/*! ../math/Mat3.js */
+
+/*! ../math/Mat4.js */
+
+/*! ../math/Quat.js */
+
+/*! ../math/Vec3.js */
+
+/*! ../modules/logger/index.js */
+
+/*! ../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../node_modules/css-loader/dist/runtime/sourceMaps.js */
+
+/*! ../utils/log.js */
+
+/*! ./Background */
+
+/*! ./CSSPlugin.js */
+
+/*! ./ExecutionEnvironment */
+
+/*! ./Home */
+
+/*! ./Logger */
+
+/*! ./Mat4.js */
+
+/*! ./Transform.js */
+
+/*! ./UserAgent_DEPRECATED */
+
+/*! ./Vec3Func.js */
+
+/*! ./Vec4Func.js */
+
+/*! ./_DataView */
+
+/*! ./_Hash */
+
+/*! ./_ListCache */
+
+/*! ./_Map */
+
+/*! ./_MapCache */
+
+/*! ./_Promise */
+
+/*! ./_Set */
+
+/*! ./_SetCache */
+
+/*! ./_Stack */
+
+/*! ./_Symbol */
+
+/*! ./_Uint8Array */
+
+/*! ./_WeakMap */
+
+/*! ./_arrayEach */
+
+/*! ./_arrayFilter */
+
+/*! ./_arrayLikeKeys */
+
+/*! ./_arrayMap */
+
+/*! ./_arrayPush */
+
+/*! ./_arraySome */
+
+/*! ./_assocIndexOf */
+
+/*! ./_baseEach */
+
+/*! ./_baseFor */
+
+/*! ./_baseForOwn */
+
+/*! ./_baseGet */
+
+/*! ./_baseGetAllKeys */
+
+/*! ./_baseGetTag */
+
+/*! ./_baseHasIn */
+
+/*! ./_baseIsArguments */
+
+/*! ./_baseIsEqual */
+
+/*! ./_baseIsEqualDeep */
+
+/*! ./_baseIsMatch */
+
+/*! ./_baseIsNative */
+
+/*! ./_baseIsTypedArray */
+
+/*! ./_baseIteratee */
+
+/*! ./_baseKeys */
+
+/*! ./_baseMap */
+
+/*! ./_baseMatches */
+
+/*! ./_baseMatchesProperty */
+
+/*! ./_baseProperty */
+
+/*! ./_basePropertyDeep */
+
+/*! ./_baseTimes */
+
+/*! ./_baseToString */
+
+/*! ./_baseUnary */
+
+/*! ./_cacheHas */
+
+/*! ./_castFunction */
+
+/*! ./_castPath */
+
+/*! ./_coreJsData */
+
+/*! ./_createBaseEach */
+
+/*! ./_createBaseFor */
+
+/*! ./_equalArrays */
+
+/*! ./_equalByTag */
+
+/*! ./_equalObjects */
+
+/*! ./_freeGlobal */
+
+/*! ./_getAllKeys */
+
+/*! ./_getMapData */
+
+/*! ./_getMatchData */
+
+/*! ./_getNative */
+
+/*! ./_getRawTag */
+
+/*! ./_getSymbols */
+
+/*! ./_getTag */
+
+/*! ./_getValue */
+
+/*! ./_hasPath */
+
+/*! ./_hashClear */
+
+/*! ./_hashDelete */
+
+/*! ./_hashGet */
+
+/*! ./_hashHas */
+
+/*! ./_hashSet */
+
+/*! ./_isIndex */
+
+/*! ./_isKey */
+
+/*! ./_isKeyable */
+
+/*! ./_isMasked */
+
+/*! ./_isPrototype */
+
+/*! ./_isStrictComparable */
+
+/*! ./_listCacheClear */
+
+/*! ./_listCacheDelete */
+
+/*! ./_listCacheGet */
+
+/*! ./_listCacheHas */
+
+/*! ./_listCacheSet */
+
+/*! ./_mapCacheClear */
+
+/*! ./_mapCacheDelete */
+
+/*! ./_mapCacheGet */
+
+/*! ./_mapCacheHas */
+
+/*! ./_mapCacheSet */
+
+/*! ./_mapToArray */
+
+/*! ./_matchesStrictComparable */
+
+/*! ./_memoizeCapped */
+
+/*! ./_nativeCreate */
+
+/*! ./_nativeKeys */
+
+/*! ./_nodeUtil */
+
+/*! ./_objectToString */
+
+/*! ./_overArg */
+
+/*! ./_root */
+
+/*! ./_setCacheAdd */
+
+/*! ./_setCacheHas */
+
+/*! ./_setToArray */
+
+/*! ./_stackClear */
+
+/*! ./_stackDelete */
+
+/*! ./_stackGet */
+
+/*! ./_stackHas */
+
+/*! ./_stackSet */
+
+/*! ./_stringToPath */
+
+/*! ./_toKey */
+
+/*! ./_toSource */
+
+/*! ./clients/WebSocketClient.js */
+
+/*! ./createConsoleLogger */
+
+/*! ./emitter */
+
+/*! ./eq */
+
+/*! ./forEach */
+
+/*! ./functions/EulerFunc.js */
+
+/*! ./functions/Mat3Func.js */
+
+/*! ./functions/Mat4Func.js */
+
+/*! ./functions/QuatFunc.js */
+
+/*! ./functions/Vec3Func.js */
+
+/*! ./get */
+
+/*! ./gsap-core.js */
+
+/*! ./hasIn */
+
+/*! ./identity */
+
+/*! ./isArguments */
+
+/*! ./isArray */
+
+/*! ./isArrayLike */
+
+/*! ./isBuffer */
+
+/*! ./isEventSupported */
+
+/*! ./isFunction */
+
+/*! ./isLength */
+
+/*! ./isObject */
+
+/*! ./isObjectLike */
+
+/*! ./isSymbol */
+
+/*! ./isTypedArray */
+
+/*! ./keys */
+
+/*! ./log */
+
+/*! ./log-apply-result */
+
+/*! ./memoize */
+
+/*! ./node_modules/webpack-dev-server/client/clients/WebSocketClient.js */
+
+/*! ./overlay.js */
+
+/*! ./progress.js */
+
+/*! ./property */
+
+/*! ./socket.js */
+
+/*! ./src/normalizeWheel.js */
+
+/*! ./stubArray */
+
+/*! ./stubFalse */
+
+/*! ./toString */
+
+/*! ./utils/log.js */
+
+/*! ./utils/sendMessage.js */
+
+/*! ansi-html-community */
+
+/*! classes/AsyncLoad */
+
+/*! classes/Colors */
+
+/*! classes/Component */
+
+/*! classes/Page */
+
+/*! components/Canvas */
+
+/*! events */
+
+/*! gsap */
+
+/*! lodash/each */
+
+/*! lodash/map */
+
+/*! normalize-wheel */
+
+/*! ogl */
+
+/*! pages/Home */
+
+/*! prefix */
+
+/*! shaders/background-fragment.glsl */
+
+/*! shaders/background-vertex.glsl */
+
+/*! tapable */
+
+/*! webpack/hot/emitter.js */
+
+/*! webpack/hot/log.js */
+
+/*! webpack/lib/logging/runtime.js */
+
+/*!********************************************!*\
+  !*** ./client-src/modules/logger/index.js ***!
+  \********************************************/
+
+/*!**********************************************!*\
+  !*** ./client-src/modules/logger/tapable.js ***!
+  \**********************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/webpack/lib/logging/Logger.js ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/webpack/lib/logging/runtime.js ***!
+  \*****************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/webpack/lib/logging/createConsoleLogger.js ***!
+  \*****************************************************************/
 
 /**
  * Checks if an event is supported in the current execution environment.
